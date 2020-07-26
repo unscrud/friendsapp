@@ -14,7 +14,12 @@ class FriendsApp extends StatelessWidget {
         appBar: AppBar(
           title: Text("My Friends"),
         ),
-        body: Center(),
+        body: Center(
+          child: DecoratedBox(
+            decoration: BoxDecoration(color: Colors.lightBlueAccent),
+            child: Text('Maria'),
+          ),
+        ),
       ),
     );
   }
