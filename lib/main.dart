@@ -15,9 +15,50 @@ class FriendsApp extends StatelessWidget {
           title: Text("My Friends"),
         ),
         body: Center(
-          child: DecoratedBox(
-            decoration: BoxDecoration(color: Colors.lightBlueAccent),
-            child: Text('Maria'),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+              Padding(
+                padding: const EdgeInsets.all(10),
+                child: DecoratedBox(
+                  decoration: BoxDecoration(color: Colors.lightBlueAccent),
+                  child: Text(
+                    "Maria",
+                    style: TextStyle(fontSize: 50),
+                  ),
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(10),
+                child: DecoratedBox(
+                  decoration: BoxDecoration(color: Colors.lightBlueAccent),
+                  child: Text(
+                    "Gabriel",
+                    style: TextStyle(fontSize: 50),
+                  ),
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(10),
+                child: DecoratedBox(
+                  decoration: BoxDecoration(color: Colors.lightBlueAccent),
+                  child: Text(
+                    "Vanessa",
+                    style: TextStyle(fontSize: 50),
+                  ),
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(10),
+                child: DecoratedBox(
+                  decoration: BoxDecoration(color: Colors.lightBlueAccent),
+                  child: Text(
+                    "Camila",
+                    style: TextStyle(fontSize: 50),
+                  ),
+                ),
+              ),
+            ],
           ),
         ),
       ),
